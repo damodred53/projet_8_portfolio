@@ -1,0 +1,14 @@
+.contact_formulaire{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: absolute;
+    top: 250px;
+    align-items: center;
+    width: 100%;
+    
+}
+.contact_formulaire h2{
+    font-size: 45px;
+    font-style: italic;
+}

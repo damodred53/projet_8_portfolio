@@ -1,0 +1,19 @@
+
+
+.title_home{
+    margin: 0px;
+    color: white;
+    filter: brightness(100%);
+    position: absolute;
+    top: 200px;
+    left: 15%;
+    font-size: 150px;
+}
+.paragraph_home{
+    color: white;
+    margin: 0px;
+    position: absolute;
+    top: 430px;
+    left: 15%;
+    font-size: 5em;
+}

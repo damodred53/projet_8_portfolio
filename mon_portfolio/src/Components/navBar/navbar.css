@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Trocchi&display=swap');
+
+
+
+.banner_navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 6%;
+    padding-right: 3%;
+   height: 100px;
+    align-items: center;
+    background-color: #28282B;
+    color: whitesmoke;
+    font-family: 'Trocchi', serif;
+    width: 100%;
+}
+.welcome_navBar{
+    font-size: 12px;
+}
+
+.menu_navBar{
+    width: 50%;
+    display: flex;
+    flex-direction: row;   
+}
+
+.list_navBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: fit-content;
+    list-style-type: none;
+    white-space: nowrap; 
+    width: 100%;
+}
+
+.list_element{
+    
+    font-family: 'Trocchi', serif;
+    font-size: 18px;
+    padding: 3% 5%;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+.list_element:hover{
+    /*background-color: #393e46;*/
+    border-bottom: solid 1px cyan;
+    font-weight: bolder;
+}

@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+
+.illustration{
+    background-image:  url('../../assets/cyber-image.jpg');
+    height: 100em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    filter: brightness(60%);  
+   z-index: -1;
+}
+
