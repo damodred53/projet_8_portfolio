@@ -2,26 +2,22 @@
 *{
   max-width: 2550px;
 }
+.main_page_skills{
+  position: absolute;
+  top: 300px;
+  left: 15%;
+}
 
 
 .page_skills{
     display: flex;
     flex-direction: row;
-   /*justify-content: center;*/
-    position: absolute;
-    top: 250px;
-    left: 8%;
-    /*max-width: 100%;*/
 }
 
 
-.paragraphe_skills{
-    
-    
+.paragraphe_skills{  
     width: 50%;
-    color: white;
-    
-    
+    color: white;  
 }
 
 .wrapper_skills{
@@ -31,7 +27,7 @@
     margin-top: 40px;
     gap: 2%;
     width: 100%;
-    justify-content: space-evenly;
+    
 }
   
   .progress {
@@ -69,7 +65,7 @@
     align-items: center;
     white-space: nowrap;
     gap: 20%;
-    margin-right: 5%;
+    margin-right: 8%;
   }
   .icon_skills{
     width: 100%;
@@ -162,6 +158,13 @@
   flex-direction: column;
 justify-content: space-around;
 align-items: flex-start;
+}
+
+.quote_skills{
+  font-size: 1.5em;
+    font-style: italic;
+    color: white;
+    margin-top: 7em;
 }
 
   

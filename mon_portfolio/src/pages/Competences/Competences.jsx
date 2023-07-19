@@ -9,6 +9,7 @@ import JavaScript from '../../assets/javascript_logo.png';
 
 const Competences = () => {
     return (
+        <div className='main_page_skills'>
         <div className='page_skills'>
                 <section className='paragraphe_skills'>
 
@@ -97,8 +98,11 @@ const Competences = () => {
                             <li>Logiciel de maquettage Figma</li>
                         </ol>
                     </div>
-
+                    
                 </section>
+                
+            </div>
+        <blockquote className='quote_skills'>"Il n'y a qu'une façon d'échouer, c'est d'abandonner avant d'avoir réussi" Georges Clémenceau</blockquote>
         </div>
     )
 }
