@@ -9,7 +9,7 @@ const About = () => {
         <div>
             <h2 className='title_about'>Qui suis-je ?</h2>
             <div className='paragraph_about'>
-            <p className="c"> Développeur junior mais passionné dans le domaine du web depuis 2 ans,
+            <p className="text_about"> Développeur junior mais passionné dans le domaine du web depuis 2 ans,
                 actuellement développeur Web.<br/>
                 Je conçois et réalise des sites web du cahier des charges à la mise en ligne.<br/>
                 Je developpe aussi bien en front-end (partie visible de votre site) qu'en back-end 

@@ -47,7 +47,7 @@ const ContactForm = () => {
           required
         ></textarea>
       </div>
-      <button type="submit">Envoyer</button>
+      <button className="button_contact" type="submit">Envoyer</button>
     </form>
   );
   };

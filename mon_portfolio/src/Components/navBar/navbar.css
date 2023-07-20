@@ -13,7 +13,7 @@
     background-color: #28282B;
     color: whitesmoke;
     font-family: 'Trocchi', serif;
-    width: 100%; 
+    width: auto; 
 }
 
 
@@ -64,40 +64,45 @@
     }
 }
 
-@media only screen and (max-width: 1260px){
-    .welcome_navBar{
+@media only screen and (max-width: 1260px) {
+    .welcome_navBar {
         display: none;
-    };
-}
+    }
 
-@media only screen and (max-width: 1260px){
-    .menu_navBar{
+    .menu_navBar {
         width: 85%;
-    };
+    }
 }
 
-@media only screen and (max-width: 870px){
-    .banner_navBar{
+@media only screen and (max-width: 870px) {
+    .banner_navBar {
         padding: 0%;
         justify-content: flex-start;
-    };
-}
-@media only screen and (max-width: 870px){
+    }
+
     .list_element {
-        margin-right: 30%; 
-    };
+        margin-right: 30%;
+    }
 }
-@media only screen and (max-width: 720px){
+
+@media only screen and (max-width: 720px) {
     .list_navBar {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         row-gap: 15%;
-    };
+    }
 }
-@media only screen and (max-width: 560px){
+
+@media only screen and (max-width: 560px) {
     .list_navBar {
         display: grid;
-        grid-template-columns: 1fr 1fr ;
+        grid-template-columns: 1fr 1fr;
         row-gap: 10%;
-    };
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .list_navBar {
+        column-gap: 30%;
+    }
 }
