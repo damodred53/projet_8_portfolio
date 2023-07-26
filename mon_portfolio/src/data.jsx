@@ -25,7 +25,7 @@ export const data = [
         title: "projet Kasa",
         description: "Projet visant à mettre en place de manière dynamique l’entièreté de la partie front d’un site web. Les liens sont actifs. La base de données de ce site est en locale. Le projet est codé en react.js et utilise aussi le sass. Il s’agit de mon premier projet les utilisant. La difficulté du projet a été de prendre en main ces deux technologies.",
         compétences: [logo_react ],
-        lien: "https://damodred53.github.io/",
+        lien: "https://damodred53.github.io/projet-6-version-finale/",
         lien_repo: "https://github.com/damodred53/projet-6-version-finale",
     },
     {
