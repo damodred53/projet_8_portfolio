@@ -1,5 +1,5 @@
 import './Home.css';
-import ordinateur from '../../assets/ordinateurs.jpg';
+import ordinateur from '../../assets/ordinateurs.webp';
 
 const Home = () => {
 

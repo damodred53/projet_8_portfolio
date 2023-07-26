@@ -1,11 +1,11 @@
 
 import './Competences.css'
-import HTML from '../../assets/logo_html.png';
-import CSS from '../../assets/logo_css.jpeg';
-import logo_react from '../../assets/logo_react.png';
-import Sass from '../../assets/sas.logo.png';
-import Node from '../../assets/logo_node.png';
-import JavaScript from '../../assets/javascript_logo.png';
+import HTML from '../../assets/logo_html.webp';
+import CSS from '../../assets/logo_css.webp';
+import logo_react from '../../assets/logo_react.webp';
+import Sass from '../../assets/sas.logo.webp';
+import Node from '../../assets/logo_node.webp';
+import JavaScript from '../../assets/javascript_logo.webp';
 
 const Competences = () => {
     return (

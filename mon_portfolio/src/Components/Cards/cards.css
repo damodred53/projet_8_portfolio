@@ -1,7 +1,18 @@
 
 
-
-
+.div_logo_card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+}
+.logo_card{
+    width: 10%;
+    min-width: 120px;
+    border-radius: 100px;
+    background-color: white;
+    padding: 1%;
+}
 
 .link_card {
     text-decoration: none;

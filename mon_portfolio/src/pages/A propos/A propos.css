@@ -23,14 +23,11 @@
     font-size: 150px;
 }
 .link_about{
-    position: absolute;
-    top: 730px;
-    left: 10%;
     color: white;
     text-decoration: none;
     font-size: 1.5em;
     font-style: italic;
-    margin-top: 5%;
+    
 }
 .link_about:hover{
     color: cyan;
@@ -40,11 +37,31 @@
 .moi {
     max-width: 10%;
     border-radius: 50%;
-    
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
+
 .text_about{
     padding-right: 10%;
 }
+
+.view_cv_about{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+    top: 730px;
+    left: 10%;
+    height: 50px;
+}
+
+.image_cv_about{
+  max-width: 2%;
+  min-width: 20px;
+  margin-left: 1%;
+  border: 1px black solid;
+}
+
+/* Intégration des media queries */
 
 @media only screen and (max-width: 1600px) {
     .paragraph_about {
@@ -56,6 +73,13 @@
   }
   .link_about{
     top: 1100px;
+  }
+}
+@media only screen and (max-width: 1500px)
+{
+  .view_cv_about{
+    top: 1100px;
+    color: red;
   }
 }
 
@@ -72,7 +96,7 @@
     .moi {
         max-width: 30%;
   } 
-  .link_about{
+  .view_cv_about{
     top: 1200px;
     padding-right: 8%;
   }
@@ -85,6 +109,10 @@
   .title_about {
     font-size: 3em;
 } 
+.view_cv_about{
+  top: 1300px;
+  padding-right: 8%;
+}
 }
 
 @media only screen and (max-width: 510px) {
@@ -93,5 +121,12 @@
   } 
   .moi{
     display: none;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .view_cv_about{
+    top: 1400px;
+    padding-right: 8%;
   }
 }

@@ -1,14 +1,16 @@
 import React from "react";
 import {Link} from 'react-router-dom';
 import './navbar.css';
+import { useState } from "react";
+
+import Hamburger from "hamburger-react";
 
 const NavBar = () => {
-
-
+    const [isOpen, setOpen] = useState(false)
 
     return (
 
-        <div className="banner_navBar">
+        <div className="banner_navBar" >
             <div className="welcome_navBar"><h1>Bienvenue sur le site de Florent Guyard</h1></div>
             <nav className="menu_navBar">
                 <ul className="list_navBar">

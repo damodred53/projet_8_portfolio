@@ -54,6 +54,14 @@
     border-bottom: solid 1px cyan;
 }
 
+.menu_hidden_navBar{
+    display: none;
+
+}
+
+
+
+
 
 /* gestion des medias queries */
 
@@ -102,7 +110,9 @@
 }
 
 @media only screen and (max-width: 400px) {
-    .list_navBar {
-        column-gap: 30%;
+    .list_navBar{
+        padding-left: 5%;
+        row-gap: 5%;
+        column-gap: 5%;
     }
 }
