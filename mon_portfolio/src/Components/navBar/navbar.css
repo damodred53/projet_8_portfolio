@@ -54,9 +54,59 @@
     border-bottom: solid 1px cyan;
 }
 
-.menu_hidden_navBar{
-    display: none;
+/* gestion du menu burger - version mobile */
+.hidden_div{
+    height: 100px;
+}
 
+.first_div_navBar{
+    position: absolute;
+    top: 5px;
+    left: 5%;
+    display: flex;
+    align-items: center;  
+    display: none;   
+}
+.first_div_navBar div{
+    margin-right: 5%;
+}
+.first_div_navBar h2{
+    white-space: nowrap;
+    
+}
+.check_navBar{
+    width: 200%;
+}
+.span_navBar{
+    display: none;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    background: #cdcdcd;
+    border: 3px;
+}
+.hidden_div_navBar{
+    display: none;
+    list-style-type: none;
+    background: #ededed;
+    z-index: 2;
+    background: #28282B;
+    position: absolute;
+    width: 600px;
+    top: 100px;
+}
+.hidden_div_navBar li{
+    width: 30%;
+    white-space: none;
+    
+}
+.list_element_hidden {
+    color: #28282B;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #cdcdcd;
+    
 }
 
 
@@ -102,17 +152,57 @@
 }
 
 @media only screen and (max-width: 560px) {
-    .list_navBar {
+    
+    .first_div_navBar{
+        display: flex;
+        
+    }
+    .span_navBar{
+        display: block;
+    }
+    .hidden_div_navBar{
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        row-gap: 10%;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-left: 5%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        width: 100%;
+        border: cyan 1px solid;
+        position: absolute;
+        z-index: 3;   
+        animation: largeur 0.2s  linear forwards;
+        
+    }
+
+  @keyframes largeur {
+    0% {
+      width: 0px;
+      overflow: hidden;
+    }
+    100% {
+      width: 100%;
+      overflow: hidden;
+    }
+  }
+
+    .hidden_div_navBar li{
+        white-space: nowrap;
+    }
+    .paragraphe_navBar:hover{
+        color: cyan;
+    }
+    
+
+    .menu_navBar{
+        display: none;
     }
 }
 
-@media only screen and (max-width: 400px) {
+/*@media only screen and (max-width: 400px) {
     .list_navBar{
         padding-left: 5%;
         row-gap: 5%;
         column-gap: 5%;
     }
-}
+
+}*/
