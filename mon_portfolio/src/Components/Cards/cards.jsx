@@ -7,8 +7,6 @@ import './cards.css';
 
 const Card = ({image}) => {
 
-    
-
     return (
         
            data.map((item, id, index) => (
@@ -23,13 +21,9 @@ const Card = ({image}) => {
                 ))}
             </div>
                 
-                
-          
-          
                 {item.lien && item.lien.trim() !== '' ? <Link className="link_card" target="_blank" to={item.lien}><p>Lien vers le projet en ligne</p></Link> : ''}
                 <Link className="link_card" target="_blank" to={item.lien_repo}><p>Lien vers le repository du projet</p></Link>
             </div>
-              
         ))
         
 )
