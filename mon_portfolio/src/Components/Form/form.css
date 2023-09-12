@@ -1,0 +1,35 @@
+.formulaire{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 45em;
+    width: 50%;
+    border-top: 2px solid white;
+    padding-top: 3%;
+}
+.formulaire_div_contact{
+    width: 100%;
+}
+.formulaire_div_contact textarea{
+    width: 100%;
+    height: 10em;
+    
+}
+.formulaire_div_contact input{
+    width: 100%;
+    height: 6em;
+}
+.formulaire_div_contact label{
+   color: white;
+   font-size: 30px;
+   
+}
+.formulaire button{
+    border-radius: 15px;
+    width: 15%;
+    height: 4em;
+    align-self: center;
+    font-size: 15px;
+    font-weight: 700;
+ }

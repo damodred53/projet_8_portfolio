@@ -1,0 +1,75 @@
+
+.page_projet{
+    position: absolute;
+    top: 200px;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title_projet{
+    color: white;
+    font-size: 50px;
+
+}
+
+.grid_card{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 2%;
+    margin-bottom: 3%;
+}
+.projet_card{
+    border: 1px white solid;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    font-size: 22px;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 5%;
+}
+
+.paragraph_projet{
+    color: white;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+@media only screen and (max-width: 1300px) {
+    .page_projet {
+        position: absolute;
+      top: 120px;
+  } 
+}
+@media only screen and (max-width: 1048px) {
+    .paragraph_projet {
+        display: none;
+  } 
+}
+
+@media only screen and (max-width: 950px) {
+    .projet_card {
+        overflow-y: auto;
+        max-height: 550px;
+  } 
+  .description_card {
+    display: none;
+  }
+  .paragraph_projet {
+    display: block;
+} 
+}
+
+@media only screen and (max-width: 600px) {
+    .description_card {
+        font-size: 18px;
+  } 
+  .projet_card {
+   
+    max-height: 450px;
+} 
+}

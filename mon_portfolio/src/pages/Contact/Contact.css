@@ -1,0 +1,52 @@
+
+.page_contact{
+    position: absolute;
+    top: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+.contact_formulaire{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+    align-items: center;
+    width: 100%;
+    
+}
+.contact_formulaire h2{
+    font-size: 45px;
+    font-style: italic;
+}
+.quote_contact{
+    color: white;
+    font-style: italic;
+    margin-top: 50%;
+    font-size: 1.5em;
+}
+
+@media only screen and (max-width: 1440px) {
+    .title_contact {
+        max-width: 50%;
+  } 
+}
+
+@media only screen and (max-width: 1200px) {
+    .button_contact {
+        width: 150px!important;
+  } 
+}
+
+@media only screen and (max-width: 850px) {
+    .formulaire {
+        width: 80%;
+  } 
+  .title_contact {
+    max-width: 80%;
+} 
+
+}

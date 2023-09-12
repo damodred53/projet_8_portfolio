@@ -1,0 +1,34 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-bottom: 0%;
+    height: 10em;
+    
+}
+.logo_footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+}
+.logo_footer a {
+    width: min-content;
+}
+
+.logo_facebook{
+    width: 3%;
+    min-width: 60px;
+}
+.logo_linkedin{
+    width: 3%;
+    min-width: 75px;
+}
+.logo_github{
+    width: 3%;
+    min-width: 60px;
+    margin-left: 5%;
+}
