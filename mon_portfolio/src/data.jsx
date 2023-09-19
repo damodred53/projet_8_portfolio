@@ -11,15 +11,15 @@ export const data = [
         title: "Booki",
         description: "Projet visant à créer une page d'un site de réservation pour hôtel, il s'agit d'un site OnePage classique dans la forme. L’affichage est conçu pour des écrans de 1440 pixels maximum. Dans ce projet, la principale difficulté consistait à travailler seulement en HTML et CSS brute sans l’aide d’aucunes autres librairies. Le projet m’a également permis de m’initier au flex-box et au grid qui sont désormais indispensables et omniprésentes dans l’intégration web.",
         compétences: [HTML, CSS],
-        lien: "https://damodred53.github.io/Projet_2/",
-        lien_repo: "https://github.com/damodred53/Projet_2"
+        lien: "https://damodred53.github.io/Projet_Booki/",
+        lien_repo: "https://github.com/damodred53/Projet_Booki"
     },
     {
         title: "Projet d'étude page restaurant",
         description: "Projet visant à m’initier à Bootstrap et aux mises en page modernes, il s’agit d’un site en onePage. Bien que des boutons soient présents, seuls la page d’accueil à été codée. La grande difficulté de ce projet a été de faire des choix esthétiques pour un rendu agréable et intuitif pour l’utilisateur.",
         compétences: [Boostrap, CSS],
-        lien: "https://damodred53.github.io/projet_etude_restaurant/",
-        lien_repo: "https://github.com/damodred53/projet_etude_restaurant"
+        lien: "https://damodred53.github.io/landingpage_restaurant/",
+        lien_repo: "https://github.com/damodred53/landingpage_restaurant"
     },
     {
         title: "projet Kasa",
