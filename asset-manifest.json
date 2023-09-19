@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/projet_8_portfolio/static/css/main.0dd21dec.css",
-    "main.js": "/projet_8_portfolio/static/js/main.92aa580a.js",
+    "main.js": "/projet_8_portfolio/static/js/main.a4686c04.js",
     "static/js/787.595b4aa7.chunk.js": "/projet_8_portfolio/static/js/787.595b4aa7.chunk.js",
     "static/media/CV_Florent_Guyard.jpg": "/projet_8_portfolio/static/media/CV_Florent_Guyard.8a152f5265feb465eefb.jpg",
     "static/media/ordinateurs.webp": "/projet_8_portfolio/static/media/ordinateurs.57fed334ada6a74e1cf7.webp",
@@ -20,11 +20,11 @@
     "static/media/logo_boostrap.svg": "/projet_8_portfolio/static/media/logo_boostrap.fa2753ea8f5439fa2cd53eaaafd4a03c.svg",
     "index.html": "/projet_8_portfolio/index.html",
     "main.0dd21dec.css.map": "/projet_8_portfolio/static/css/main.0dd21dec.css.map",
-    "main.92aa580a.js.map": "/projet_8_portfolio/static/js/main.92aa580a.js.map",
+    "main.a4686c04.js.map": "/projet_8_portfolio/static/js/main.a4686c04.js.map",
     "787.595b4aa7.chunk.js.map": "/projet_8_portfolio/static/js/787.595b4aa7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0dd21dec.css",
-    "static/js/main.92aa580a.js"
+    "static/js/main.a4686c04.js"
   ]
 }
